@@ -28,6 +28,7 @@ include('js/jquery.easing.1.3.js');
     }
 })(jQuery);
 
+//not used
 ;(function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
@@ -38,6 +39,7 @@ include('js/jquery.easing.1.3.js');
     }
 })(jQuery);
 
+//not used
 ;(function ($) {
     var o = $('[data-equal-group]');
     if (o.length > 0) {
@@ -60,6 +62,7 @@ include('js/jquery.easing.1.3.js');
     include('js/jquery.rd-navbar.js');
 })(jQuery);
 
+//not used
 ;(function ($) {
     var o = document.getElementById("google-map");
     if (o) {
@@ -149,6 +152,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         });
     }
 })(jQuery);
+
 ;(function ($) {
     var o = $('.thumb');
     if (o.length > 0) {
@@ -160,6 +164,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         });
     }
 })(jQuery);
+
 ;(function ($) {
     include('js/scrollTo.js');
 })(jQuery);
